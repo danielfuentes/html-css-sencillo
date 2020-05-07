@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body class="pagina">
+    <a href="index.html">Inicio</a> | <a href="nosotros.html">Nosotros</a> | <a href="contacto.html">Contacto</a>
+    <br>
+    <h1 class="titulo">Registro de usuario</h1>
+    <form action="datos.php" method="POST">
+        <label for="nombre">Nombre</label>
+        <br>
+        <input type="text" name="nombre" value="" required placeholder="Indique su nombre">
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" value="">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" value="">
+        <br>
+        <button type="submit" >Registrarme</button>
+       <!-- <input type="submit" value="Registrarme"> -->
+    </form>
+</body>
+</html>
