@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
 p{
     font-size: 20px;
     text-align: justify;
@@ -35,6 +39,10 @@ a{
     color: white;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 #nombre{
@@ -77,6 +85,21 @@ input{
     color: blue;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Detallo el CSS del Formulario*/
+/*Un elemento en bloque, posee: largo - ancho -relleno - borde - margen*/
+.cajaFormulario{
+    background-color: rgba(122, 200, 130, 0.3);
+    width: 30%;    /*Unidades de medidas en css:  px - em - rem  - % */
+    height: 540px;
+    /*padding: arriba - abajo - izquierda - derecha;*/
+    padding: 20px;
+    border: red 5px double;
+    /*margin: arriba - abajo - izquierda - derecha ;*/
+    margin-left: 240px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 
